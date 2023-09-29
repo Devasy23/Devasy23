@@ -21,11 +21,11 @@ Welcome to my GitHub profile! I am a passionate software developer and technolog
 ### [Devasy23/Devasy23](https://github.com/Devasy23/Devasy23)
 This is a special repository that holds a variety of projects, ranging from web development to data science. Feel free to explore and contribute. Let's learn and grow together!
 
-### [Project Name](https://github.com/YourUsername/ProjectName)
-Description of the project. Briefly explain what the project does and what technologies it uses.
-
-### [Another Project](https://github.com/YourUsername/AnotherProject)
-Description of the project. Briefly explain what the project does and what technologies it uses.
+### [Image Caption Generator](https://github.com/Devasy23/Image_captionning_project)
+- Developed an Image Captioning project using a CNN-LSTM architecture, trained on the Flickr8k dataset, achieving over 60% accuracy
+in generating descriptive captions for images.
+- Evaluated the model's performance using metrics such as BLEU score, showcasing the project's ability to generate captions that
+closely match human-written descriptions.
 
 ## 🚀 Skills and Technologies
 - **Languages:** JavaScript, Python, HTML/CSS, C++
