@@ -35,7 +35,7 @@ closely match human-written descriptions.
 - **Other:** Data Science, Machine Learning, Web Development, Deep Learning
 
 ## 🌱 Currently Learning
-I'm currently focusing on improving my skills in [mention what you are learning, e.g., React Native development, Data Science algorithms, etc.]. I'm always excited to learn new things and expand my knowledge horizons.
+I'm currently focusing on improving my skills in ALgorithms, Deep Learning and Open-source contributing . I'm always excited to learn new things and expand my knowledge horizons.
 
 ## 🔗 Let's Connect
 - [LinkedIn](https://www.linkedin.com/in/devasy-patel/)
