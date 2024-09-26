@@ -25,8 +25,10 @@
 ![Devasy's GitHub stats](https://github-readme-stats.vercel.app/api?username=Devasy23&show_icons=true&theme=radical)
 
 ## 🗺️ Visitor Map
-
-![Visitor Map](https://visitor-badge.glitch.me/badge?page_id=Devasy23.Devasy23)
+<td colspan="2" align="center">
+      <details open><summary>Compact display</summary><img src="https://github.com/Devasy23/Devasy23/blob/main/metrics.plugin.achievements.compact.svg" alt=""></img></details>
+      <img width="900" height="1" alt="">
+</td>
 
 ## 😄 Joke of the Day
 
