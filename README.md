@@ -1,48 +1,53 @@
-<!--
-**Devasy23/Devasy23** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+# Welcome to My Coding Universe! 🚀
+![typing...](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=14&duration=3666&pause=2333&color=1677FF&repeat=true&random=false&height=21&lines=I+am+Devasy,+a+Passionate+Developer.)
+<!-- <p align="center">
+  <img src="path_to_your_animated_banner.gif" alt="Animated Banner">
+</p> -->
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-# Hello, I'm Devasy 👋
 
-Welcome to my GitHub profile! I am a passionate software developer and technology enthusiast. Here, you'll find a collection of my projects and contributions to the world of coding. I enjoy exploring new technologies and collaborating on interesting projects.
+## 🐍 Contribution Graph
 
-## 🌟 Featured Repositories
+![Snake animation](https://github.com/Devasy23/Devasy23/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+  <img alt="github-snake" src="dist/github-snake.svg" />
+</picture>
 
-### [Devasy23/Devasy23](https://github.com/Devasy23/Devasy23)
-This is a special repository that holds a variety of projects, ranging from web development to data science. Feel free to explore and contribute. Let's learn and grow together!
 
-### [Image Caption Generator](https://github.com/Devasy23/Image_captionning_project)
-- Developed an Image Captioning project using a CNN-LSTM architecture, trained on the Flickr8k dataset, achieving over 60% accuracy
-in generating descriptive captions for images.
-- Evaluated the model's performance using metrics such as BLEU score, showcasing the project's ability to generate captions that
-closely match human-written descriptions.
+## 🌟 My Skills
 
-## 🚀 Skills and Technologies
-- **Languages:** JavaScript, Python, HTML/CSS, C++
-- **Frameworks/Libraries:** Node.js, Django, Streamlit
-- **Databases:** MongoDB, MongoDB, Firebase
-- **Tools:** Git, VS Code
-- **Other:** Data Science, Machine Learning, Web Development, Deep Learning
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,python,react,nodejs)](https://skillicons.dev)
 
-## 🌱 Currently Learning
-I'm currently focusing on improving my skills in ALgorithms, Deep Learning and Open-source contributing . I'm always excited to learn new things and expand my knowledge horizons.
+## 📊 GitHub Stats
 
-## 🔗 Let's Connect
-- [LinkedIn](https://www.linkedin.com/in/devasy-patel/)
-- [Twitter](https://twitter.com/Delin00249280)
-- [LeetCode](https://leetcode.com/devasy-patel/)
+![Devasy's GitHub stats](https://github-readme-stats.vercel.app/api?username=Devasy23&show_icons=true&theme=radical)
 
-Feel free to reach out for collaboration, interesting tech discussions, or just to say hi! 😊
+## 🗺️ Visitor Map
 
-Happy coding!
+![Visitor Map](https://visitor-badge.glitch.me/badge?page_id=Devasy23.Devasy23)
 
+## 😄 Joke of the Day
+
+![Jokes Card](https://readme-jokes.vercel.app/api)
+
+## 🏆 GitHub Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Devasy23&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
+<p align="center">
+  <img src="https://github.com/Devasy23.png" width="100px">
+  <br>
+  <samp>
+    👋 Hi! I craft code and build dreams.
+    <br>Check out my <a href="devasypatel.netlify.app">portfolio</a> for more!
+  </samp>
+</p>
+
+![Metrics](metrics.plugin.achievements.compact.svg)
+<p align="center">
+  <img src="https://github.com/Devasy23/Devasy23/blob/main/assets/github-contribution-grid-snake.svg" alt="snake"></center>
+</p>
