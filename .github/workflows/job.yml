@@ -9,6 +9,9 @@ jobs:
   generate-metrics:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.achievements.compact.svg
@@ -20,6 +23,14 @@ jobs:
             scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
+
+      - name: Commit metrics SVG
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add metrics.plugin.achievements.compact.svg
+          git commit -m "Update metrics SVG"
+          git push
 
   generate-snake:
     runs-on: ubuntu-latest
