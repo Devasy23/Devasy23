@@ -13,6 +13,14 @@
 
 ## 🚀 Skills & Stats
 
+<!-- Profile Summary Cards -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Devasy23&theme=radical" alt="Profile Details Card"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Devasy23&theme=radical" alt="Stats Card"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Devasy23&theme=radical&utcOffset=0" alt="Productive Time Card"/>
+</p>
+<!-- End Profile Summary Cards -->
+
 <div style="display: flex; justify-content: space-between;">
 
 <div style="flex: 1;">
@@ -35,7 +43,7 @@
 <div style="flex: 1;">
 
 ### Trophies🏆
-[![trophy](https://github-profile-trophy.vercel.app/?username=Devasy23&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Devasy23&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -46,6 +54,17 @@
 </div>
 
 </div>
+
+<!-- WakaTime Stats (Uncomment after setting up WakaTime secrets) -->
+<!--
+## 📊 WakaTime Stats
+
+<p align="center">
+  <! -- WakaTime Code Stats -- >
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Devasy23&layout=compact&theme=radical" alt="WakaTime Code Stats"/>
+</p>
+-->
+<!-- End WakaTime Stats -->
 
 ## 🐍 Contribution Graph
 

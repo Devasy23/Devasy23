@@ -21,6 +21,32 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
 
+  generate-summary-cards:
+    name: Generate Profile Summary Cards
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: kautukkundan/github-profile-summary-cards@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }} # Use the same token if permissions allow, or create a dedicated one
+
+  # generate-wakatime: # Uncomment this section after setting up WakaTime
+  #   name: Generate WakaTime Stats
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: anmol098/waka-readme-stats@master # Use the latest version if preferred
+  #       with:
+  #         WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # Needs WAKATIME_API_KEY secret
+  #         GH_TOKEN: ${{ secrets.METRICS_TOKEN }} # Needs GH_TOKEN secret (can use METRICS_TOKEN)
+  #         SHOW_PROFILE_VIEWS: "False" # Optional: Adjust settings as needed
+  #         SHOW_TOTAL_CODE_TIME: "True" # Optional
+  #         SHOW_DAYS_OF_WEEK: "False" # Optional
+  #         SHOW_PROJECTS: "False" # Optional
+  #         SHOW_LANGUAGE_PER_REPO: "False" # Optional
+  #         SHOW_LOC_CHART: "False" # Optional
+
   generate-snake:
     runs-on: ubuntu-latest
     steps:
@@ -49,3 +75,14 @@ jobs:
                 git add dist
                 git commit -m "Update snake graphics"
                 git push
+
+  generate-activity:
+    name: Generate Recent Activity
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }} # Or a dedicated token
