@@ -1,0 +1,22 @@
+name: Latest Blog Posts Workflow
+
+on:
+  schedule:
+    - cron: '0 */24 * * *' # Runs every 24 hours
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  update-readme-with-blog:
+    name: Update README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Pull in blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://devasypatel.netlify.app/rss.xml" # Replace with your actual blog RSS feed
+          max_post_count: 5
+          template: "[$title]($url) - $date"
+          commit_message: "Updated with the latest blog posts"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
